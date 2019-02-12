@@ -52,7 +52,7 @@ export default {
       });
     },
     restaurants() {
-      return this.$store.getters["restaurants/list"];
+      return this.$store.getters["restaurants/restaurantsList"];
     }
   },
   async fetch({ store }) {

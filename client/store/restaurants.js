@@ -12,5 +12,5 @@ export const mutations = {
 }
 
 export const getters = {
-  list: state => state.list
+  restaurantsList: state => state.list
 }
